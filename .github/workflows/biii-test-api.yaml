@@ -19,3 +19,6 @@ jobs:
     - name: test http BIII 
       run: |
         curl http://biii.eu
+    - name: test http searchAPI
+      run: |
+        curl https://biii.eu/search?search_api_fulltext=fiji+tracking
